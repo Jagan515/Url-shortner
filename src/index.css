@@ -1,0 +1,21 @@
+.app {
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.app.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+.app.dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+.card {
+  transition: background-color 0.3s;
+}
+.app.light .card {
+  background-color: #fff;
+}
+.app.dark .card {
+  background-color: #343a40;
+}
